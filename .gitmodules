@@ -1,0 +1,23 @@
+[submodule "rss-reader"]
+	path = "src/app/rss-reader"
+	url = "https://github.com/islamic-works/rss-reader-module.git"
+	branch = "master"
+[submodule "pray-times"]
+	path = "src/app/pray-times"
+	url = "https://github.com/islamic-works/pray-times-modules.git"
+	branch = "master"
+[submodule "glossary"]
+	path = "src/app/glossary"
+	url = "https://github.com/islamic-works/glossary-module.git"
+	branch = "master"
+[submodule "data"]
+	path = "src/app/data"
+	url = "https://github.com/islamic-works/data.git"
+	branch = "offline"
+[submodule "assets"]
+	path = "src/assets"
+	url = "https://github.com/islamic-works/assets.git"
+	branch = "islam-app"
+[submodule "fonts"]
+	path = src/fonts
+	url = https://github.com/islamic-works/fonts.git
