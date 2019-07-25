@@ -1,0 +1,39 @@
+@import "../../app-variables";
+
+.fab-button {
+  height: 55;
+  width: 55;
+  background-color: $white;
+}
+
+.fab-button-home {
+  background-color: $home;
+}
+
+.fab-button-praytimes {
+  background-color: $praytimes;
+}
+
+.fab-button-glossary {
+  background-color: $glossary;
+}
+
+.fab-button-mussala {
+  background-color: $mussala;
+}
+
+.fab-button-about {
+  background-color: $about;
+}
+
+.fab-button-news {
+  background-color: $news;
+}
+
+.fab-button-praytimes-active,
+.fab-button-gossary-active,
+.fab-button-mussala-active,
+.fab-button-about-active,
+.fab-button-news-active {
+  background-color: $black-medium;
+}

@@ -1,0 +1,22 @@
+<DockLayout class="page">
+	<label dock="top" text="About" class="header" (tap)="onAboutTap()"></label>
+	<FlexboxLayout dock="bottom" class="footer"><ns-menu [active]="active"></ns-menu></FlexboxLayout>
+	<ScrollView height="100%" dock="left">
+		<StackLayout>
+			<Label [text]="appName" textWrap="false" class="text-header"></Label>
+			<Label [text]="appDescription" textWrap="true" class="text"></Label>
+			<hr>
+			<Label text="Team" textWrap="true" class="text-header"></Label>
+			<Label [text]="team" textWrap="true" class="text"></Label>
+			<hr>
+			<Label text="Sponsors" textWrap="true" class="text-header"></Label>
+			<StackLayout *ngFor="let sponsor of sponsors">
+				<StackLayout class="sponsor-image-wrapper" horizontalAlignment="center" verticalAlignment="middle">
+					<Label [text]="sponsor.name" textWrap="true" class="text"></Label>
+					<Label [text]="sponsor.email" textWrap="true" class="text" (tap)="openEmail(sponsor.email)"></Label>
+					<Image  class="sponsor-image" [src]="sponsor.logo" (tap)="openUrl(sponsor.url)"></Image>
+				</StackLayout>
+			</StackLayout>
+		</StackLayout>
+	</ScrollView>
+</DockLayout>
