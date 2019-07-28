@@ -1,6 +1,6 @@
 {
   "displayName": "Islan APP",
-  "name": "islan_app",
+  "name": "IslamicApp",
   "description": "Um aplicativo que ajuda nas orações e a encontrar  Mu’min (مؤمن) e Ulama (علماء) ",
   "license": "SEE LICENSE IN LICENSE FILE",
   "repository": "https://github.com/islamic-works/islan_app",
@@ -18,7 +18,7 @@
     }
   ],
   "nativescript": {
-    "id": "org.islamicworks.islanapp",
+    "id": "org.islamicworks.islamicapp",
     "tns-ios": {
       "version": "6.0.1"
     },
@@ -40,11 +40,13 @@
     "@angular/router": "~8.0.0",
     "encodeurl": "^1.0.2",
     "nativescript-angular": "~8.0.0",
+    "nativescript-calendar": "^2.1.0",
     "nativescript-cardview": "^3.2.0",
     "nativescript-floatingactionbutton": "^5.1.0",
     "nativescript-material-icons": "file:../nativescript-material-icons",
     "nativescript-ng2-fonticon": "^1.3.4",
     "nativescript-theme-core": "~1.0.4",
+    "nativescript-ui-calendar": "^5.0.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.5.2",
     "rxjs-compat": "^6.5.2",
@@ -63,5 +65,5 @@
     "typescript": "3.4.5"
   },
   "gitHead": "8c1a4866a66daab09bf5ef8e5a96472687192373",
-  "readme": "Islan app"
+  "readme": "Islamic App"
 }

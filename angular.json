@@ -1,0 +1,22 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "cli": {
+    "defaultCollection": "@nativescript/schematics"
+  },
+  "projects": {
+    "islan-app": {
+      "root": "",
+      "sourceRoot": "src",
+      "projectType": "application",
+      "prefix": "ns",
+      "schematics": {
+        "@nativescript/schematics:component": {
+          "styleext": "scss"
+        }
+      },
+    }
+  },
+  "defaultProject": "islan-app"
+}
