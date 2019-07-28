@@ -12,7 +12,7 @@
 	branch = master
 [submodule "fonts"]
 	path = src/fonts
-	url = https://github.com/islamic-works/fonts.git
+	url = git@github.com:islamic-works/fonts.git
 [submodule "assets"]
 	path = "src/assets"
 	url = "https://github.com/islamic-works/assets.git"
@@ -21,3 +21,10 @@
 	path = src/data
 	url = https://github.com/islamic-works/data.git
 	branch = offline
+[submodule "mussala"]
+	path = src/app/mussala
+	url = https://github.com/islamic-works/mussala-module.git
+[submodule "radio"]
+	path = src/app/radio
+	url = https://github.com/islamic-works/radio-module.git
+	branch = master
