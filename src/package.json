@@ -1,0 +1,10 @@
+{
+  "version": "201907222045",
+  "displayName": "Islamic APP",
+  "name": "IslamicApp",
+  "description": "Um aplicativo que ajuda nas orações e a encontrar  Mu’min (مؤمن) e Ulama (علماء) ",
+  "main": "main.js",
+  "android": {
+    "v8Flags": "--expose_gc"
+  }
+}

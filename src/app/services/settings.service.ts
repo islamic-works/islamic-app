@@ -6,6 +6,9 @@ const APP_ST_VERSION = "version";
 
 @Injectable()
 export class SettingsService {
+    private _appDescription: string;
+    private _appName: string;
+
     getSettings<S>(moduleName?: string, param?: string): S {
         let settings;
         if (moduleName)
@@ -40,8 +43,12 @@ export class SettingsService {
      * Retorna uma string com a descrição da aplicação.
      * 
      */
-    public appName: string;
-    public appDescription: string;
+    public get appName(): string{
+        return this._appName;
+    }
+    public get appDescription(): string{
+        return this._appDescription;
+    }
 
     private config: any;
     private teamJson: any;
@@ -115,6 +122,7 @@ export class SettingsService {
                 + this.config.version + ", "
                 + dataVersion + ")");
     }
+
     /**
      * Retorna a versão do módulo ou dado informado
      * 
@@ -219,7 +227,10 @@ export class SettingsService {
 
         if (this.debug) console.log(this.config);
 
-        // apartir daqui já pode usar
+        // a partir daqui já pode usar getFile()
+        let pkg = this.getFile("../package.json");
+        this._appName = pkg.displayName;
+        this._appDescription = pkg.description;
         this.webServiceVersions = this.getFile("versions.json");
         if (this.debug) {
             console.log("Versões do WebService: ", this.webServiceVersions);
