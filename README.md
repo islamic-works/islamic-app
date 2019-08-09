@@ -29,3 +29,26 @@ https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CWUDP66Q95W
   <img alt="QR Code" border="1" src="./docs/PayPal-QR Code.png"/>
 </form>
 
+
+## Calculo dos Horários de Oração
+
+O Calculo de horários de oração foi feito com base no algortimo matemático proposto pelo site: http://praytimes.org/
+
+## Conversores Rss2Json
+
+Feed: "https://ditosdossalaf.wordpress.com/feed/atom/",
+
+### RSS to Json
+
+URL: "https://api.rss2json.com/v1/api.json?rss_url=",
+  
+## Tutoriais Relevantes
+
+* http://shripalsoni.com/blog/material-font-icons-in-nativescript-angular-apps/
+* https://github.com/ReactiveX/rxjs/blob/master/docs_app/content/guide/v6/migration.md#pipe-syntax
+
+## TODO
+
+* Mover css, scss e fontes para a pasta assets (Submodule Assets)
+* Módulo de Audio (quran-player integrado com o glossário)
+* Módulo de Chat
