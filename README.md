@@ -2,6 +2,14 @@
 
 Este aplicativo está sendo desenvolvido com diversos propóstios, primeiro me ajudar com minhas orações e estudos no Islamismo, e em segundo desenvolver cada vez mais minhas habilidades ciêntificas, dentre elas a Exegese Islamica do Alcorão, O Estudo da Astronomia em especial o movimento do sol, da terra e da lua para calculos da oração e também para uso com PicoSats e NanoSats, O Estudo da programação para Celular e todos os conceitos relacionados.
 
+Este aplicativo também pode ajudar outros islamicos pois estou adicionando a ele recursos que ajudam cada um identificar mussalas, serviços e lojas islâmicas, além de outros muçulmanos que estejam nas proxímidades.
+
+Por questões de segurança, sabendo que há regiões que não toleram as diferenças religiosas e muito menos o islâmismo a localização de muçulmanos só é feita com estrita autorização do usuário, e sempre que o mesmo fecha a aplicação é preciso autorizar novamente a publicação de sua localização atráves de login novamente na aplicação, portanto ela não grava seu login, sempre que sai, é preciso logar de novo, efetuando todo o processo de autenticação.
+
+Os anunciantes, são fixos portanto somente são removidos da aplicação através de solicitação por escrito, já que normalmente tais anunciantes são patrocinadores e sua divulgação é uma retribuição ao apoio ao desenvolvimento.
+
+As Mussalas, Mesquistas e centros de apoio são divulgados automáticamente conforme identificadas na internet, ou através de solicitação para que sejam adicionadas, caso desejem que sejam removidas, basta enviar uma solicitação por escrito do representante oficial do centro.
+
 [O APK para testes do Calendário de Orações está liberado neste link.](https://github.com/islamic-works/islamic-app/releases/tag/v0.0.1-alpha-2)
 
 O Fonte somente será liberado na versão 0.0.2-beta quando todas as funcionalidades básicas estiverem implementadas
