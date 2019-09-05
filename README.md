@@ -14,11 +14,16 @@ As Mussalas, Mesquistas e centros de apoio são divulgados automáticamente conf
 
 O Fonte somente será liberado na versão 0.0.2-beta quando todas as funcionalidades básicas estiverem implementadas
 
+
+- [Mussala](https://github.com/islamic-works/mussala-module) - era "Localizador", este módulo foi iniciado neste release, assim que o primeiro código com eficacia em localizar as mesquitas próximas conforme nosso banco de dados estiver funcionando, então, será liberado.
+- [Auth - em desenvolvimento](https://github.com/islamic-works/auth-module), este módulo cuidará de questões relativa a identificação do usuário (autenticação) e em casos muito específicos a autorização, como certificação de mussalas, mesquitas e centros de apoio. Um usuário comum não pode certificar outros usuários, apenas os que forem validados através de documentos oficiais como sendo responsáveis por alguma organização Islâmica. Veja mais detalhes em [Readme](https://github.com/islamic-works/auth-module/Readme) e [Projeto de Autenticação, Autorização e Certificação](https://github.com/islamic-works/islamic-app/projects/1),
+- [Persistence](https://github.com/islamic-works/persistence-module) - Camada de abstração de persistência
+- [Entities](https://github.com/islamic-works/entities) - Entidades usadas no projeto
+- [Rádio - liberado com recursos básicos](https://github.com/islamic-works/radio-module)
 - [Calendário - em processo de finalização](https://github.com/islamic-works/praytimes-module)
-- [Glossário - Versão beta liberada](https://github.com/islamic-works/glossary-module)
-- Localização - por desenvolver
-- Sobre - Versão beta liberada
+- [Glossário - Versão beta liberada](https://github.com/islamic-works/glossary-module) - Será ampliado para um módulo de E-Lerning com o alcorão, o alfabeto, pronúncias e recitações.
 - [Rss Feed Read - Versão beta liberada](https://github.com/islamic-works/rss-reader-module)
+c-works/glossary-module)
 
 # Apoio
 
